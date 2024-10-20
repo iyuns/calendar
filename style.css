@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    border-radius: 10px;
 }
 ul {
     list-style-type: none;
@@ -12,10 +13,11 @@ h1{
     text-align: center;
 }
 
+/* 70px 25px */
 .month {
   padding: 70px 25px;
   width: 100%;
-  background: #1abc9c;
+  background: rgb(122, 79, 37);
   text-align: center;
 }
 
@@ -55,7 +57,7 @@ h1{
 }
 
 .days {
-  padding: 10px 0;
+  padding: 30px 0;
   background: #eee;
   margin: 0;
 }
@@ -65,15 +67,23 @@ h1{
   display: inline-block;
   width: 13.6%;
   text-align: center;
-  margin-bottom: 5px;
-  font-size:12px;
+  margin-bottom: 40px;
+  font-size:15px;
   color: #777;
 }
 
 .days li .active {
   padding: 5px;
-  background: #1abc9c;
+  background: rgb(99, 44, 0);
   color: white !important
+}
+
+.weekdays .blue-text{
+  color: rgb(75, 75, 255);
+}
+
+.weekdays .red-text{
+  color: rgb(255, 75, 75);
 }
 
 /* Add media queries for smaller screens */
